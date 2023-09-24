@@ -1,13 +1,86 @@
-body {
+* {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: hsl(210, 36%, 96%);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+  background-color: #fff;
+  width: 50%;
+  margin: 0 auto;
+  padding: 1rem;
+  margin-top: 2rem;
+  /* box-shadow: 1px -1px 20px #121212, -3px -1px 20px #161a16; */
+  box-shadow: 44px 44px 88px #bebebe, -44px -44px 88px #ffffff;
+}
+.static {
+  width: 55%;
+  margin: 0 auto;
+}
+.static h2 {
+  font-size: 2.5rem;
+  text-align: center;
+}
+#input {
+  padding: 0.3rem;
+  outline: none;
+  font-size: 1.3rem;
+  margin-top: 1rem;
+}
+.btn-submit {
+  padding: 0.3rem;
+  font-size: 1.3rem;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.list {
+  margin-top: 2rem;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: space-between;
+}
+.btn-container {
+  display: flex;
+  gap: 1rem;
+}
+.btn {
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  cursor: pointer;
+}
+
+.edit-btn {
+  color: aquamarine;
+}
+.delete-btn {
+  color: brown;
+}
+.Nocontainer {
+  margin-top: 4rem;
+  width: 30vw;
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+.success {
+  color: #2fff5f;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 1.8rem;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+.danger {
+  color: brown;
+  text-transform: capitalize;
+  font-weight: 400;
+  font-size: 1.8rem;
+  text-align: center;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
